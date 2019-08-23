@@ -5,6 +5,7 @@ def my_hash
     "country" => "India"
   }
   puts my_hash
+  return my_hash
 
 end
 
@@ -19,7 +20,8 @@ def shipping_manifest
      "oil paintings" => 3
    }
 
-   puts the_manifest[]
+   puts the_manifest
+   return the_manifest
 
 end
 
@@ -33,6 +35,7 @@ def retrieval
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
   val = shipping_manifest["oil paintings"]
   puts val
+  return val
 end
 
 def adding
@@ -51,6 +54,7 @@ def adding
 
   # return the shipping_manifest hash below
   puts shipping_manifest
-  # return shipping_manifest
+  return shipping_manifest
 
 end
+my_hash
