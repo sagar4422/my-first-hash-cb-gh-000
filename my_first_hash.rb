@@ -19,7 +19,7 @@ def shipping_manifest
      "oil paintings" => 3
    }
 
-   puts the_manifest
+   puts the_manifest[]
 
 end
 
